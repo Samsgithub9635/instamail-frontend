@@ -7,12 +7,15 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      // This tells Vite to look for popup.html in the project's root directory.
+      // Define multiple entry points for the build
       input: {
+        // The entry for your public website
+        main: resolve(__dirname, 'index.html'),
+        // The entry for your extension's popup
         popup: resolve(__dirname, 'popup.html'),
       },
       output: {
-        // This keeps the output file names clean for the extension.
+        // Keep asset names simple and predictable
         entryFileNames: `assets/[name].js`,
         chunkFileNames: `assets/[name].js`,
         assetFileNames: `assets/[name].[ext]`,
