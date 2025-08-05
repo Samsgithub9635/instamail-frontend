@@ -15,7 +15,7 @@ import {
   Alert
 } from '@mui/material';
 
-const API_URL = 'http://localhost:8080/api/email/generate';
+const API_URL = 'https://instamail-ai.onrender.com/';
 
 function App() {
   const [emailContent, setEmailContent] = useState('');
