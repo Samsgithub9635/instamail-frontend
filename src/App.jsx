@@ -15,7 +15,8 @@ import {
   Alert
 } from '@mui/material';
 
-const API_URL = 'https://instamail-ai.onrender.com/';
+// FIX: This URL now points to your live backend server on Render.
+const API_URL = 'https://instamail-ai.onrender.com/api/email/generate';
 
 function App() {
   const [emailContent, setEmailContent] = useState('');
