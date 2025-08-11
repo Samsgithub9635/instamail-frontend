@@ -1,90 +1,118 @@
-# InstaMail AI - Your AI-Powered Email Assistant
+# InstaMail AI – Your AI-Powered Email Assistant
 
-### Communicate with Confidence and Clarity
-
-InstaMail AI is a full-stack application featuring a powerful Chrome Extension that integrates directly into your Gmail interface, allowing you to generate professional, context-aware email replies in seconds. This repository contains the frontend code for both the Chrome Extension and a live web demo.
-
-**[➡️ Live Web Demo](https://instamail-ai.netlify.app/)**
-
-![InstaMail AI Demo](https://i.imgur.com/your-demo-gif-url.gif) 
-*(Suggestion: Record a short screen capture of your extension in action, upload it to a site like imgur.com, and paste the link here.)*
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)  
+![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=mui&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
 
 ---
 
-## ✨ Features
+## Communicate with Confidence and Clarity
 
-* **Seamless Gmail Integration:** An "InstaMail Reply" button appears right next to the "Send" button in your compose window, feeling like a native part of the UI.
-* **Standalone Web UI:** Use the full power of the AI generator directly from our [live web demo](https://instamail-ai.netlify.app/), no installation required.
-* **Tone Adjustment:** Craft a reply that is professional, friendly, concise, or formal to perfectly match the situation.
-* **Instant Generation:** Powered by a fast and secure backend, replies are generated in moments.
-* **Extension Popup:** Access the UI quickly from the extension's popup icon in your Chrome toolbar.
+**InstaMail AI** is an enterprise-grade full-stack solution featuring an AI-powered Chrome Extension that seamlessly integrates within the Gmail UI. It empowers users to generate context-aware, professionally toned email replies within seconds—streamlining communication workflows and elevating productivity.
 
-## 🚀 How to Install the Chrome Extension
+This repository hosts the **frontend** codebase for both the Chrome Extension and a live web demo, delivering a cohesive experience across devices.
 
-Since this extension is in active development, it is not yet on the Chrome Web Store. You can easily install it for free by following these steps:
-
-### 1. Download the Extension
-
-* Navigate to the [**Releases** page](https://github.com/Samsgithub9635/instamail-frontend/) of this repository.
-* Under the latest release, download the `instamail-ai-extension.zip` file.
-* Unzip the downloaded file on your computer. You will now have a folder containing the extension files (it will likely be named `dist`).
-
-### 2. Install in Chrome
-
-* Open Google Chrome and navigate to the extensions page by typing `chrome://extensions` in the address bar.
-* In the top-right corner, turn on **"Developer mode"**.
-* Click the **"Load unpacked"** button that appears on the top-left.
-* In the file browser that opens, select the unzipped folder you downloaded in the previous step.
-* The InstaMail AI extension will now appear in your list of extensions! Pin it to your toolbar for easy access.
-
-### 3. How to Use
-
-* **In Gmail:** Open any email and click "Reply". You will see a new "✨ InstaMail Reply" button in the compose window's toolbar.
-* **From the Toolbar:** Click the InstaMail AI icon in your Chrome toolbar to open the popup UI.
+**[➡️ Try the Live Web Demo Here](https://instamail-ai.netlify.app/)**
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 How InstaMail AI Works: Step-by-Step Visual Guide
 
-* **Framework:** React (with Vite)
-* **UI Library:** Material-UI
-* **API Client:** Axios
-* **Deployment:** Netlify
+### 0. This is how the GUI should look like 
+![InstaMail AI UI](https://github.com/samrat21saha/instamail-frontend/blob/main/app%20demo/React%20UI.png)  
 
-The backend for this project is a separate Spring Boot application. You can view its repository here: **[instamail-ai-backend](https://github.com/Samsgithub9635/instamail-ai-backend)**
+### 1. Paste Your Email Content  
+Simply input the received email text into the web app or extension interface to begin.
+
+![Pasting email content into the UI](https://github.com/samrat21saha/instamail-frontend/blob/main/app%20demo/email%20pasted%20in%20the%20ui.png)  
+*Clean and intuitive interface optimized for swift user onboarding.*
+
+### 2. Click on the "GENERATE INSTAMAIL REPLY" Button
+Select the desired tone—Professional, Friendly, Formal, or Concise—and click "Generate". The system provides real-time feedback via a dynamic loading state.
+
+![Button in a loading state](https://github.com/samrat21saha/instamail-frontend/blob/main/app%20demo/button%20loading.png)  
+*Transparent processing status ensures user confidence and reduces uncertainty.*
+
+### 3. View the AI-Generated Draft  
+The polished, contextually relevant reply appears within seconds, ready for review and copy-paste action.
+
+![The generated email reply](https://github.com/samrat21saha/instamail-frontend/blob/main/app%20demo/email%20generaed.png)  
+*Final output emphasizes clarity, professionalism, and easy usability.*
+
+### 4. Quick-Access Extension Popup, Click on the Instamail AI extension button
+Access InstaMail AI from the Chrome toolbar popup anytime for immediate email response generation without leaving your workflow.
+
+![Pasting mail into the popup](https://github.com/samrat21saha/instamail-frontend/blob/main/app%20demo/popup%20pasted%20mail.png)  
+*Enables on-demand assistance, ensuring zero friction in communication.*
+
+### 5. Seamless Gmail Integration – Native-Like UX  
+The highlight feature is the native-appearing **Generate Reply** button embedded directly into Gmail’s UI. It triggers the AI reply generator popup, delivering an unmatched user experience and workflow efficiency.
+
+![Gmail Integrated Button Demo](https://github.com/samrat21saha/instamail-frontend/blob/main/app%20demo/Recording%202025-08-05%20225946%20(online-video-cutter.com).mp4)  
+*Experience the fluidity of the Gmail-mounted button and extension popup interaction.*
 
 ---
 
-## ⚙️ How to Run Locally (For Developers)
+## ✨ Key Features
 
-Follow these instructions to get the project running on your local machine for development.
+- **Native Gmail Integration:** Deep UI integration providing a frictionless, in-context email response assistant.  
+- **Standalone Web Application:** Accessible via any device, ensuring flexibility and mobility.  
+- **Adaptive Tone Settings:** Tailor your replies with multiple professional tone options.  
+- **Rapid AI-Powered Generation:** Backend-powered with robust Spring Boot microservices for near-instant results.  
+- **Quick-Access Chrome Toolbar Popup:** Stay productive with just a click from your browser toolbar.  
+- **One-Click Copy to Clipboard:** Effortless transfer of generated replies into your email client.  
 
-### Prerequisites
+---
 
-* **Node.js** (v18 or later)
-* **npm** or **yarn**
+## 📥 Chrome Extension Installation Guide
 
-### Installation & Setup
+Currently in active development and not yet published on the Chrome Web Store. Follow the steps below to install manually:
 
-1.  **Clone the repository:**
-    ```sh
-    git clone [https://github.com/](https://github.com/)[your-username]/instamail-frontend.git
-    cd instamail-frontend
-    ```
+1. Navigate to the [**Releases** page](https://github.com/[your-username]/instamail-frontend/releases).  
+2. Download the `instamail-ai-extension.zip` file from the latest release.  
+3. Unzip to extract the extension folder (`dist`).  
+4. Open Chrome and go to `chrome://extensions`.  
+5. Enable **Developer mode** at the top right.  
+6. Click **Load unpacked** and select the extracted `dist` folder.  
+7. Pin the InstaMail AI extension icon for quick access.
 
-2.  **Install dependencies:**
-    ```sh
-    npm install
-    ```
+---
 
-3.  **Run the development server:**
-    This will start the application on `http://localhost:5173`.
-    ```sh
-    npm run dev
-    ```
+## 🛠️ Tech Stack & System Architecture
 
-4.  **Build for production:**
-    This command creates the `dist` folder with the final, optimized files for deployment or for loading as an unpacked extension.
-    ```sh
-    npm run build
-    ```
+| Layer       | Technology / Framework    | Role                              |
+|-------------|---------------------------|----------------------------------|
+| Frontend    | React + Vite              | UI & Extension Popup             |
+| UI Library  | Material-UI               | Consistent, Responsive Components |
+| API Client  | Axios                     | Backend Communication            |
+| Backend     | Spring Boot (Separate Repo)| AI Processing & Business Logic   |
+| Deployment  | Netlify                   | Frontend Hosting & CDN            |
+
+*The modular architecture enables independent deployment, scalability, and robust maintenance.*
+
+---
+
+## ⚙️ Developer Setup: Running Locally
+
+### Prerequisites  
+- Node.js v18+  
+- npm or yarn package manager  
+
+### Steps  
+
+```bash
+# Clone the repository
+git clone https://github.com/[your-username]/instamail-frontend.git
+cd instamail-frontend
+
+# Install dependencies
+npm install
+
+# Start development server (default: http://localhost:5173)
+npm run dev
+
+# Build production-ready assets
+npm run build
