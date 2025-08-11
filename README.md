@@ -46,7 +46,7 @@ Access InstaMail AI from the Chrome toolbar popup anytime for immediate email re
 ### 5. Seamless Gmail Integration – Native-Like UX  
 The highlight feature is the native-appearing **Generate Reply** button embedded directly into Gmail’s UI. It triggers the AI reply generator popup, delivering an unmatched user experience and workflow efficiency.
 
-![Gmail Integrated Button Demo](https://github.com/samrat21saha/instamail-frontend/blob/main/app%20demo/Recording%202025-08-05%20225946%20(online-video-cutter.com).mp4)  
+![Gmail Integrated Button Demo](https://github.com/samrat21saha/instamail-frontend/blob/main/app%20demo/.Gmail%20Integration%20%E2%80%93%20Native-Like%20UX.mp4)  
 *Experience the fluidity of the Gmail-mounted button and extension popup interaction.*
 
 ---
